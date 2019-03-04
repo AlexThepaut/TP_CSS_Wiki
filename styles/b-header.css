@@ -5,6 +5,7 @@
         color: #9E999C;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
 
     .header__content {
