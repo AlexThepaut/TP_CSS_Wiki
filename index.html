@@ -10,14 +10,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Import des styles -->
-        <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/o-main.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/b-header.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/b-page.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/b-card.css">
         <link rel="stylesheet" type="text/css" media="screen" href="styles/normalize.css">
 
         <!-- Import font -->
         <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
-
-        <!-- Import scripts -->
-        <script src="scripts/main.js"></script>
     </head>
     <body>
         <div class="header">
@@ -25,9 +25,14 @@
                 <img class="header__img" src="img/logo.svg" alt="logo">
                 Mes Ressources Documentaires
             </div>
-            <div class="header__content header__content--profile ">
-                <img class="header__img" src="img/avatar.jpg" alt="avatar">
+            <div class="header__content header__content--profile">
+                <div class="header__img header__img-notif">
+                    <img class="header__img--avatar" src="img/avatar.jpg" alt="avatar">
+                </div>
                 Marie Thomson
+                <div class="header__notification header__notification--hidden">
+                    Vous avez 3 notifications
+                </div>
             </div>
         </div>
         <div class="container">
@@ -56,5 +61,6 @@
                     </div>
             </main>
         </div>
+        <script src="scripts/main.js"></script>
     </body>
 </html>

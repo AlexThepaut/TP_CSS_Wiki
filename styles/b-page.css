@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+    .page__section {
+        padding: 40px 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 601px) {
+    .page__section {
+        padding: 40px 0;
+    }
+}
+
+.page__title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.page__subtitle {
+    color: #B4B4B4;
+}

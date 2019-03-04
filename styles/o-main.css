@@ -1,0 +1,16 @@
+* { 
+    box-sizing: inherit; 
+}
+
+body { 
+    box-sizing: border-box;
+    background-color: #FBF8FB;
+    font-family: 'Asap', sans-serif;
+    color: #292728;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
