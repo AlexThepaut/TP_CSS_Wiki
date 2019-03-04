@@ -9,46 +9,82 @@ body {
     color: #292728;
 }
 
-.header{
+.header {
     border-bottom: 2px #EFEFEE solid;
     background-color: white;
     color: #9E999C;
     display: flex;
 }
 
-.header__content{
+.header__content {
     padding: 20px 40px;
     flex: auto;
 }
 
-.header__content--profile{
+.header__content--profile {
     flex: none;
     border-left: 2px #EFEFEE solid;
 }
 
-.header__img{
+.header__img {
     width: 50px;
     margin-right: 16px;
     vertical-align: middle;
     border-radius: 50%;
 }
 
-.container{
+.container {
     max-width: 800px;
     margin: auto;
     padding: 0 20px;
 }
 
-.page__section{
+.page__section {
     padding: 40px 0;
 }
 
-.page__title{
+.page__title {
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 20px;
 }
 
-.page__subtitle{
+.page__subtitle {
     color: #B4B4B4;
+}
+
+.card {
+    background-color: white;
+    border: #EFEFEE solid 2px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card__icon {
+    background-color: #E5EFF5;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0 25px;
+    margin-right: 20px;
+}
+
+.card__text {
+    flex: auto;
+}
+
+.card__title {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.card__description {
+    color: #B4B4B4;
+}
+
+.card__icon--colorred {
+    background-color: #FEE0DF;
+    padding: 25px 25px;
 }
